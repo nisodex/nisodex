@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="NISODEX">
+  <defs>
+    <style>
+      .wordmark {
+        font-family: 'Space Grotesk', 'Arial Black', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: 0.18em;
+        fill: #111111;
+      }
+      .tagline {
+        font-family: 'Inter', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 9px;
+        letter-spacing: 0.22em;
+        fill: #999999;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="320" height="80" fill="#FFFFFF" rx="4"/>
+
+  <!-- Geometric N symbol -->
+  <!-- Left vertical bar -->
+  <rect x="18" y="22" width="5" height="36" fill="#111111"/>
+  <!-- Right vertical bar -->
+  <rect x="43" y="22" width="5" height="36" fill="#111111"/>
+  <!-- Diagonal stroke -->
+  <polygon points="18,22 23,22 48,55 48,58 43,58 18,25" fill="#111111"/>
+  <!-- Accent dot -->
+  <rect x="48" y="54" width="4" height="4" fill="#000000"/>
+
+  <!-- Divider line -->
+  <rect x="64" y="26" width="1" height="28" fill="#DDDDDD"/>
+
+  <!-- Wordmark -->
+  <text x="76" y="47" class="wordmark">NISODEX</text>
+
+  <!-- Tagline -->
+  <text x="77" y="62" class="tagline">FULL-STACK DEVELOPER</text>
+</svg>

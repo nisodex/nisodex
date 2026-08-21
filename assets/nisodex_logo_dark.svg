@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="NISODEX">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;display=swap');
+      .wordmark {
+        font-family: 'Space Grotesk', 'Arial Black', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        letter-spacing: 0.18em;
+        fill: #E8E8E8;
+      }
+      .tagline {
+        font-family: 'Inter', Arial, sans-serif;
+        font-weight: 400;
+        font-size: 9px;
+        letter-spacing: 0.22em;
+        fill: #555555;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="320" height="80" fill="#0A0A0A" rx="4"/>
+
+  <!-- Geometric N symbol (24x36px, centered at x=28 y=22) -->
+  <!-- Left vertical bar -->
+  <rect x="18" y="22" width="5" height="36" fill="#E8E8E8"/>
+  <!-- Right vertical bar -->
+  <rect x="43" y="22" width="5" height="36" fill="#E8E8E8"/>
+  <!-- Diagonal stroke (top-left to bottom-right) -->
+  <!-- Using a polygon for precise diagonal -->
+  <polygon points="18,22 23,22 48,55 48,58 43,58 18,25" fill="#E8E8E8"/>
+  <!-- Accent dot (bottom-right corner) -->
+  <rect x="48" y="54" width="4" height="4" fill="#FFFFFF"/>
+
+  <!-- Divider line -->
+  <rect x="64" y="26" width="1" height="28" fill="#222222"/>
+
+  <!-- Wordmark -->
+  <text x="76" y="47" class="wordmark">NISODEX</text>
+
+  <!-- Tagline -->
+  <text x="77" y="62" class="tagline">FULL-STACK DEVELOPER</text>
+</svg>
