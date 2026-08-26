@@ -1,181 +1,162 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 340" width="1280" height="340" role="img" aria-label="NISODEX — Systems & Full-Stack Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="NISODEX — Full-Stack &amp; Systems Developer">
   <defs>
     <!-- Background Gradients -->
-    <radialGradient id="bgGlow" cx="50%" cy="50%" r="70%">
-      <stop offset="0%" stop-color="#0f111a" stop-opacity="1"/>
-      <stop offset="60%" stop-color="#07080c" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#030305" stop-opacity="1"/>
+    <radialGradient id="bgGlowCenter" cx="20%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#141829" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#090b11" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#050608" stop-opacity="1"/>
     </radialGradient>
 
-    <radialGradient id="accentGlow" cx="18%" cy="50%" r="45%">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.18"/>
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.05"/>
+    <radialGradient id="neonPulse" cx="15%" cy="50%" r="30%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
-    <radialGradient id="accentGlowRight" cx="85%" cy="40%" r="40%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Metallic & Neon Gradients for Monogram -->
-    <linearGradient id="metalGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <!-- Metallic Gradients for Monogram -->
+    <linearGradient id="metalLeft" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="45%" stop-color="#cbd5e1"/>
+      <stop offset="60%" stop-color="#cbd5e1"/>
       <stop offset="100%" stop-color="#64748b"/>
     </linearGradient>
 
-    <linearGradient id="metalGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+    <linearGradient id="metalDiag" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f8fafc"/>
-      <stop offset="70%" stop-color="#94a3b8"/>
-      <stop offset="100%" stop-color="#334155"/>
+      <stop offset="40%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
     </linearGradient>
 
-    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="metalRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="60%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+
+    <linearGradient id="neonAccent" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#818cf8"/>
       <stop offset="50%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
 
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1e2230"/>
-      <stop offset="50%" stop-color="#334155"/>
-      <stop offset="100%" stop-color="#1e2230"/>
-    </linearGradient>
-
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.8"/>
-      <stop offset="40%" stop-color="#38bdf8" stop-opacity="0.8"/>
+    <linearGradient id="lineAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.5"/>
       <stop offset="100%" stop-color="#6366f1" stop-opacity="0"/>
     </linearGradient>
 
-    <!-- Grid Pattern -->
-    <pattern id="techGrid" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#161925" stroke-width="0.75" stroke-opacity="0.6"/>
-      <circle cx="0" cy="0" r="1" fill="#2d3748" opacity="0.8"/>
+    <!-- Tech Grid Pattern -->
+    <pattern id="gridPattern" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#181d2a" stroke-width="0.75" stroke-opacity="0.6"/>
+      <circle cx="0" cy="0" r="0.8" fill="#334155" opacity="0.8"/>
     </pattern>
   </defs>
 
-  <!-- Base Dark Canvas -->
-  <rect width="1280" height="340" fill="url(#bgGlow)"/>
-  <rect width="1280" height="340" fill="url(#accentGlow)"/>
-  <rect width="1280" height="340" fill="url(#accentGlowRight)"/>
-  <rect width="1280" height="340" fill="url(#techGrid)"/>
+  <!-- Background Base -->
+  <rect width="1280" height="320" fill="url(#bgGlowCenter)"/>
+  <rect width="1280" height="320" fill="url(#neonPulse)"/>
+  <rect width="1280" height="320" fill="url(#gridPattern)"/>
 
-  <!-- Subtle Outer Framing -->
-  <rect x="20" y="20" width="1240" height="300" fill="none" stroke="url(#borderGrad)" stroke-width="1" rx="8"/>
-  <rect x="20" y="20" width="1240" height="300" fill="none" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1" rx="8"/>
+  <!-- Outer Tech Border -->
+  <rect x="24" y="20" width="1232" height="280" rx="8" fill="none" stroke="#1e293b" stroke-width="1"/>
+  <rect x="24" y="20" width="1232" height="280" rx="8" fill="none" stroke="#ffffff" stroke-opacity="0.02" stroke-width="1"/>
 
-  <!-- Top Left Tech Telemetry -->
-  <g transform="translate(45, 45)">
-    <circle cx="4" cy="4" r="3" fill="#10b981"/>
-    <circle cx="4" cy="4" r="6" fill="none" stroke="#10b981" stroke-opacity="0.4" stroke-width="1"/>
-    <text x="16" y="7" font-family="'Courier New', monospace" font-size="11" font-weight="700" letter-spacing="0.15em" fill="#64748b">SYS.STATUS // ONLINE</text>
+  <!-- Corner Tech Accents -->
+  <path d="M 24 40 L 24 20 L 44 20" fill="none" stroke="#6366f1" stroke-width="2"/>
+  <path d="M 1256 40 L 1256 20 L 1236 20" fill="none" stroke="#6366f1" stroke-width="2"/>
+  <path d="M 24 280 L 24 300 L 44 300" fill="none" stroke="#6366f1" stroke-width="2"/>
+  <path d="M 1256 280 L 1256 300 L 1236 300" fill="none" stroke="#6366f1" stroke-width="2"/>
+
+  <!-- Top Telemetry Bar -->
+  <g transform="translate(50, 48)">
+    <circle cx="5" cy="5" r="3.5" fill="#10b981"/>
+    <circle cx="5" cy="5" r="7" fill="none" stroke="#10b981" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="18" y="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="700" letter-spacing="0.15em" fill="#64748b">SYSTEM STATUS // ONLINE</text>
   </g>
 
-  <!-- Top Right Version Identifier -->
-  <g transform="translate(1080, 45)">
-    <text x="0" y="7" font-family="'Courier New', monospace" font-size="11" font-weight="600" letter-spacing="0.2em" fill="#475569">0xNISODEX · V2.4</text>
+  <g transform="translate(1070, 48)">
+    <text x="0" y="9" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, monospace" font-size="11" font-weight="600" letter-spacing="0.2em" fill="#475569">0xNISODEX · V2.4</text>
   </g>
 
-  <!-- Geometric Watermark (Large Abstract N in Background) -->
-  <g opacity="0.025" transform="translate(860, 40)">
-    <polygon points="0,0 60,0 260,260 200,260" fill="#ffffff"/>
-    <polygon points="0,0 60,0 60,260 0,260" fill="#ffffff"/>
-    <polygon points="200,0 260,0 260,260 200,260" fill="#ffffff"/>
+  <!-- Large Faded Background Watermark 'N' -->
+  <g opacity="0.03" transform="translate(940, 30)">
+    <rect x="0" y="0" width="28" height="260" fill="#ffffff"/>
+    <rect x="180" y="0" width="28" height="260" fill="#ffffff"/>
+    <polygon points="0,0 28,0 208,260 180,260" fill="#ffffff"/>
   </g>
 
-  <!-- ==================== LOGO ICON / MONOGRAM (Sharp Faceted N) ==================== -->
-  <g transform="translate(80, 100)">
-    <!-- Shadow & Ambient Glow -->
-    <polygon points="12,10 32,10 98,110 78,110" fill="#6366f1" opacity="0.2" filter="blur(8px)"/>
+  <!-- ==================== LOGO ICON: MONOGRAM 'N' ==================== -->
+  <g transform="translate(75, 95)">
+    <!-- Ambient Glow behind logo -->
+    <rect x="0" y="0" width="105" height="130" fill="#6366f1" opacity="0.1" rx="8" filter="blur(10px)"/>
 
     <!-- Left Pillar -->
-    <path d="M 12 10 L 32 10 L 32 130 L 12 130 Z" fill="url(#metalGrad2)"/>
-    <path d="M 30 10 L 32 10 L 32 130 L 30 130 Z" fill="#ffffff" opacity="0.4"/>
+    <rect x="10" y="10" width="20" height="110" rx="2" fill="url(#metalLeft)"/>
+    <rect x="28" y="10" width="2" height="110" fill="#ffffff" opacity="0.4"/>
 
-    <!-- Diagonal Beam -->
-    <polygon points="12,10 32,10 98,130 78,130" fill="url(#metalGrad1)"/>
-    <!-- Diagonal Highlight Line -->
-    <polygon points="12,10 16,10 82,130 78,130" fill="#ffffff" opacity="0.7"/>
+    <!-- Diagonal Stroke -->
+    <polygon points="10,10 30,10 95,120 75,120" fill="url(#metalDiag)"/>
+    <!-- Diagonal Specular Highlight -->
+    <polygon points="10,10 14,10 79,120 75,120" fill="#ffffff" opacity="0.8"/>
 
     <!-- Right Pillar -->
-    <path d="M 78 10 L 98 10 L 98 130 L 78 130 Z" fill="url(#metalGrad2)"/>
-    <path d="M 78 10 L 80 10 L 80 130 L 78 130 Z" fill="#000000" opacity="0.5"/>
+    <rect x="75" y="10" width="20" height="110" rx="2" fill="url(#metalRight)"/>
+    <rect x="75" y="10" width="2" height="110" fill="#000000" opacity="0.3"/>
 
-    <!-- Cyberpunk Indigo/Cyan Core Accent -->
-    <polygon points="88,118 98,118 98,130 88,130" fill="url(#neonGrad)"/>
-    <circle cx="93" cy="124" r="1.5" fill="#ffffff"/>
+    <!-- Neon Core Accent Dot -->
+    <rect x="85" y="108" width="10" height="12" rx="1" fill="url(#neonAccent)"/>
+    <circle cx="90" cy="114" r="1.5" fill="#ffffff"/>
   </g>
 
-  <!-- Vertical Divider with gradient -->
-  <line x1="220" y1="95" x2="220" y2="245" stroke="#1e293b" stroke-width="1.5"/>
-  <line x1="220" y1="130" x2="220" y2="210" stroke="#6366f1" stroke-width="1.5" opacity="0.7"/>
+  <!-- Vertical Divider Bar -->
+  <line x1="210" y1="90" x2="210" y2="235" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="210" y1="125" x2="210" y2="200" stroke="#6366f1" stroke-width="1.5" opacity="0.8"/>
 
   <!-- ==================== MAIN TYPOGRAPHY & WORDMARK ==================== -->
-  <g transform="translate(250, 0)">
-    <!-- Wordmark NISODEX (Vectorized geometric typography for 100% font stability) -->
-    <g transform="translate(0, 168)">
-      <!-- N -->
-      <path d="M 0 -48 L 10 -48 L 32 -10 L 32 -48 L 42 -48 L 42 0 L 32 0 L 10 -38 L 10 0 L 0 0 Z" fill="#f8fafc"/>
-      <!-- I -->
-      <path d="M 56 -48 L 66 -48 L 66 0 L 56 0 Z" fill="#f8fafc"/>
-      <!-- S -->
-      <path d="M 80 -12 C 80 -4 86 0 97 0 C 109 0 115 -5 115 -13 C 115 -22 108 -25 96 -28 C 87 -30 83 -33 83 -38 C 83 -44 88 -48 97 -48 C 106 -48 112 -43 113 -36 L 103 -36 C 102 -40 99 -42 97 -42 C 92 -42 89 -40 89 -36 C 89 -32 93 -30 102 -32 C 112 -35 120 -30 120 -20 C 120 -11 113 0 97 0 C 83 0 75 -9 75 -20 Z" fill="#f8fafc" transform="translate(15, 0)"/>
-      <!-- O -->
-      <path d="M 148 -24 C 148 -39 157 -49 171 -49 C 185 -49 194 -39 194 -24 C 194 -9 185 1 171 1 C 157 1 148 -9 148 -24 Z M 184 -24 C 184 -35 178 -42 171 -42 C 164 -42 158 -35 158 -24 C 158 -13 164 -6 171 -6 C 178 -6 184 -13 184 -24 Z" fill="#f8fafc"/>
-      <!-- D -->
-      <path d="M 212 -48 L 232 -48 C 247 -48 257 -38 257 -24 C 257 -10 247 0 232 0 L 212 0 Z M 222 -8 L 232 -8 C 242 -8 247 -14 247 -24 C 247 -34 242 -40 232 -40 L 222 -40 Z" fill="#f8fafc"/>
-      <!-- E -->
-      <path d="M 275 -48 L 312 -48 L 312 -40 L 285 -40 L 285 -28 L 308 -28 L 308 -20 L 285 -20 L 285 -8 L 313 -8 L 313 0 L 275 0 Z" fill="#f8fafc"/>
-      <!-- X -->
-      <path d="M 330 -48 L 342 -48 L 356 -26 L 370 -48 L 382 -48 L 362 -18 L 383 0 L 371 0 L 356 -21 L 341 0 L 329 0 L 350 -18 Z" fill="#f8fafc"/>
-      <!-- Terminal Accent Dot -->
-      <circle cx="396" cy="-6" r="4" fill="#6366f1"/>
-      <circle cx="396" cy="-6" r="7" fill="none" stroke="#6366f1" stroke-opacity="0.5" stroke-width="1"/>
-    </g>
-
-    <!-- Subtitle / Tagline -->
-    <text x="4" y="202" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="14" font-weight="600" letter-spacing="0.32em" fill="#94a3b8">
-      FULL-STACK &amp; SYSTEMS ARCHITECT
+  <g transform="translate(240, 95)">
+    <!-- Wordmark NISODEX (Clean, Crisp, System-Native Typography) -->
+    <text x="0" y="60" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="0.12em" fill="#f8fafc">
+      NISODEX
     </text>
 
-    <!-- Cyber Divider Line -->
-    <path d="M 4 218 L 720 218" stroke="url(#lineGrad)" stroke-width="1.5"/>
+    <!-- Glowing Accent Dot at end of wordmark -->
+    <circle cx="340" cy="48" r="4.5" fill="#6366f1"/>
+    <circle cx="340" cy="48" r="8" fill="none" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1"/>
 
-    <!-- Capability Chips / Skill Telemetry -->
-    <g transform="translate(4, 234)">
+    <!-- Tagline / Subtitle -->
+    <text x="2" y="90" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.28em" fill="#94a3b8">
+      FULL-STACK &amp; SYSTEMS DEVELOPER
+    </text>
+
+    <!-- Glowing Divider -->
+    <line x1="2" y1="104" x2="680" y2="104" stroke="url(#lineAccent)" stroke-width="1.5"/>
+
+    <!-- Skill / Architecture Chips -->
+    <g transform="translate(2, 118)">
       <!-- Chip 1 -->
-      <rect x="0" y="0" width="105" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
-      <text x="12" y="15" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">WEB &amp; APIS</text>
+      <rect x="0" y="0" width="98" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+      <text x="12" y="15" font-family="system-ui, -apple-system, BlinkMacSystemFont, monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">WEB &amp; APIS</text>
 
       <!-- Chip 2 -->
-      <rect x="115" y="0" width="108" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
-      <text x="127" y="15" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">MOBILE APPS</text>
+      <rect x="108" y="0" width="102" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+      <text x="120" y="15" font-family="system-ui, -apple-system, BlinkMacSystemFont, monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">MOBILE APPS</text>
 
       <!-- Chip 3 -->
-      <rect x="233" y="0" width="128" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
-      <text x="245" y="15" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">SYSTEMS &amp; CLI</text>
+      <rect x="220" y="0" width="118" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+      <text x="232" y="15" font-family="system-ui, -apple-system, BlinkMacSystemFont, monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">SYSTEMS &amp; CLI</text>
 
       <!-- Chip 4 -->
-      <rect x="371" y="0" width="138" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
-      <text x="383" y="15" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">ANDROID MODDING</text>
+      <rect x="348" y="0" width="132" height="22" rx="4" fill="#0f172a" stroke="#334155" stroke-width="0.8"/>
+      <text x="360" y="15" font-family="system-ui, -apple-system, BlinkMacSystemFont, monospace" font-size="10.5" font-weight="700" fill="#cbd5e1">ANDROID MODDING</text>
 
       <!-- Chip 5 (Highlight) -->
-      <rect x="519" y="0" width="125" height="22" rx="4" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8"/>
-      <text x="531" y="15" font-family="'Courier New', monospace" font-size="10.5" font-weight="700" fill="#a5b4fc">OPEN-SOURCE</text>
+      <rect x="490" y="0" width="118" height="22" rx="4" fill="#1e1b4b" stroke="#6366f1" stroke-width="0.8"/>
+      <text x="502" y="15" font-family="system-ui, -apple-system, BlinkMacSystemFont, monospace" font-size="10.5" font-weight="700" fill="#a5b4fc">OPEN SOURCE</text>
     </g>
   </g>
 
-  <!-- Bottom Right Minimalist Spec Marks -->
-  <g transform="translate(1000, 280)">
-    <text x="0" y="0" font-family="'Courier New', monospace" font-size="10" font-weight="500" letter-spacing="0.1em" fill="#475569">DESIGNED WITH PRECISION</text>
-    <text x="0" y="14" font-family="'Courier New', monospace" font-size="9" font-weight="400" letter-spacing="0.12em" fill="#334155">ES // 40.4168° N, 3.7038° W</text>
+  <!-- Bottom Right Spec -->
+  <g transform="translate(1020, 268)">
+    <text x="0" y="0" font-family="system-ui, -apple-system, BlinkMacSystemFont, monospace" font-size="10" font-weight="600" letter-spacing="0.12em" fill="#475569">BUILT WITH PRECISION</text>
+    <text x="0" y="14" font-family="system-ui, -apple-system, BlinkMacSystemFont, monospace" font-size="9" font-weight="500" letter-spacing="0.15em" fill="#334155">ES // 40.4168° N, 3.7038° W</text>
   </g>
-
-  <!-- Tech Accent Corners -->
-  <path d="M 20 35 L 20 20 L 35 20" fill="none" stroke="#6366f1" stroke-width="2"/>
-  <path d="M 1260 35 L 1260 20 L 1245 20" fill="none" stroke="#6366f1" stroke-width="2"/>
-  <path d="M 20 305 L 20 320 L 35 320" fill="none" stroke="#6366f1" stroke-width="2"/>
-  <path d="M 1260 305 L 1260 320 L 1245 320" fill="none" stroke="#6366f1" stroke-width="2"/>
 </svg>

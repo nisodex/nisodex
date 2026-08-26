@@ -1,63 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 84" width="360" height="84" role="img" aria-label="NISODEX">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" role="img" aria-label="NISODEX">
   <defs>
-    <linearGradient id="logoMetal" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="logoMetalDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#ffffff"/>
-      <stop offset="50%" stop-color="#cbd5e1"/>
+      <stop offset="60%" stop-color="#cbd5e1"/>
       <stop offset="100%" stop-color="#64748b"/>
     </linearGradient>
 
-    <linearGradient id="logoPillars" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#f8fafc"/>
-      <stop offset="80%" stop-color="#94a3b8"/>
-      <stop offset="100%" stop-color="#475569"/>
-    </linearGradient>
-
-    <linearGradient id="logoNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="logoNeonDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#4f46e5"/>
     </linearGradient>
   </defs>
 
-  <!-- Container -->
-  <rect width="360" height="84" fill="#07080c" rx="8" stroke="#1e293b" stroke-width="1"/>
+  <!-- Background -->
+  <rect width="320" height="80" fill="#08090c" rx="8" stroke="#1e293b" stroke-width="1"/>
 
   <!-- Logo Mark (N) -->
-  <g transform="translate(20, 18)">
+  <g transform="translate(18, 16)">
     <!-- Left Column -->
-    <path d="M 6 4 L 14 4 L 14 44 L 6 44 Z" fill="url(#logoPillars)"/>
+    <rect x="6" y="6" width="6" height="36" rx="1" fill="url(#logoMetalDark)"/>
     <!-- Diagonal Bridge -->
-    <polygon points="6,4 14,4 38,44 30,44" fill="url(#logoMetal)"/>
-    <polygon points="6,4 8,4 32,44 30,44" fill="#ffffff" opacity="0.6"/>
+    <polygon points="6,6 12,6 36,42 30,42" fill="url(#logoMetalDark)"/>
+    <polygon points="6,6 8,6 32,42 30,42" fill="#ffffff" opacity="0.6"/>
     <!-- Right Column -->
-    <path d="M 30 4 L 38 4 L 38 44 L 30 44 Z" fill="url(#logoPillars)"/>
-    <!-- Accent Dot -->
-    <polygon points="34,40 38,40 38,44 34,44" fill="url(#logoNeon)"/>
+    <rect x="30" y="6" width="6" height="36" rx="1" fill="url(#logoMetalDark)"/>
+    <!-- Neon Dot -->
+    <rect x="32" y="38" width="4" height="4" fill="url(#logoNeonDark)"/>
   </g>
 
   <!-- Divider line -->
-  <line x1="75" y1="20" x2="75" y2="64" stroke="#1e293b" stroke-width="1.5"/>
-  <line x1="75" y1="32" x2="75" y2="52" stroke="#6366f1" stroke-width="1.5" opacity="0.7"/>
+  <line x1="68" y1="20" x2="68" y2="60" stroke="#1e293b" stroke-width="1.5"/>
+  <line x1="68" y1="30" x2="68" y2="50" stroke="#6366f1" stroke-width="1.5" opacity="0.7"/>
 
-  <!-- Typography (Vectorized NISODEX Wordmark) -->
-  <g transform="translate(90, 42)">
-    <!-- N -->
-    <path d="M 0 -19 L 4 -19 L 14 -4 L 14 -19 L 18 -19 L 18 0 L 14 0 L 4 -15 L 4 0 L 0 0 Z" fill="#f8fafc"/>
-    <!-- I -->
-    <path d="M 24 -19 L 28 -19 L 28 0 L 24 0 Z" fill="#f8fafc"/>
-    <!-- S -->
-    <path d="M 35 -5 C 35 -2 37 0 42 0 C 47 0 49 -2 49 -5 C 49 -9 46 -10 41 -11 C 37 -12 36 -13 36 -15 C 36 -18 38 -19 42 -19 C 45 -19 48 -17 48 -14 L 44 -14 C 44 -16 43 -17 42 -17 C 40 -17 39 -16 39 -15 C 39 -13 41 -12 44 -13 C 48 -14 52 -12 52 -8 C 52 -4 49 0 42 0 C 36 0 33 -4 33 -8 Z" fill="#f8fafc" transform="translate(3, 0)"/>
-    <!-- O -->
-    <path d="M 60 -10 C 60 -16 63 -20 69 -20 C 75 -20 78 -16 78 -10 C 78 -4 75 0 69 0 C 63 0 60 -4 60 -10 Z M 74 -10 C 74 -14 72 -17 69 -17 C 66 -17 64 -14 64 -10 C 64 -6 66 -3 69 -3 C 72 -3 74 -6 74 -10 Z" fill="#f8fafc"/>
-    <!-- D -->
-    <path d="M 85 -19 L 93 -19 C 99 -19 103 -15 103 -10 C 103 -4 99 0 93 0 L 85 0 Z M 89 -3 L 93 -3 C 97 -3 99 -5 99 -10 C 99 -14 97 -16 93 -16 L 89 -16 Z" fill="#f8fafc"/>
-    <!-- E -->
-    <path d="M 110 -19 L 125 -19 L 125 -16 L 114 -16 L 114 -11 L 123 -11 L 123 -8 L 114 -8 L 114 -3 L 125 -3 L 125 0 L 110 0 Z" fill="#f8fafc"/>
-    <!-- X -->
-    <path d="M 132 -19 L 137 -19 L 143 -10 L 148 -19 L 153 -19 L 145 -7 L 154 0 L 149 0 L 143 -8 L 137 0 L 132 0 L 140 -7 Z" fill="#f8fafc"/>
-    <!-- Neon Dot -->
-    <circle cx="160" cy="-3" r="2.5" fill="#6366f1"/>
-  </g>
+  <!-- Typography -->
+  <text x="80" y="44" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="900" letter-spacing="0.14em" fill="#f8fafc">
+    NISODEX
+  </text>
+  <circle cx="218" cy="38" r="2.5" fill="#6366f1"/>
 
-  <!-- Tagline -->
-  <text x="91" y="60" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif" font-size="9" font-weight="600" letter-spacing="0.22em" fill="#64748b">SYSTEMS &amp; FULL-STACK</text>
+  <text x="81" y="58" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="8.5" font-weight="600" letter-spacing="0.22em" fill="#64748b">
+    SYSTEMS &amp; FULL-STACK
+  </text>
 </svg>
