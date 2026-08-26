@@ -1,94 +1,120 @@
 <div align="center">
-  <img src="./assets/nisodex_banner.svg" alt="NISODEX" width="100%" />
+  <img src="./assets/nisodex_banner.svg" alt="NISODEX — Full-Stack Developer" width="100%" />
 </div>
 
 <br/>
 
 <div align="center">
   <a href="https://github.com/nisodex?tab=followers">
-    <img src="https://img.shields.io/github/followers/nisodex?style=flat-square&color=222222&labelColor=0A0A0A&logo=github&logoColor=888888&label=followers" />
+    <img src="https://img.shields.io/github/followers/nisodex?style=flat-square&color=161616&labelColor=0A0A0A&logo=github&logoColor=FFFFFF&label=Followers" alt="Followers" />
   </a>
   &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=nisodex&style=flat-square&color=222222&labelColor=0A0A0A&label=views" />
+  <img src="https://komarev.com/ghpvc/?username=nisodex&style=flat-square&color=161616&labelColor=0A0A0A&label=Profile%20Views" alt="Views" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Status-Building-0A0A0A?style=flat-square&logo=git&logoColor=FFFFFF" alt="Status" />
 </div>
 
 <br/>
 
----
+```typescript
+interface Developer {
+  name: string;
+  role: string;
+  location: string;
+  focus: string[];
+  principles: string[];
+}
 
-```ts
-const nisodex = {
-  tagline:  "Open-source. Full-stack. No limits.",
-  focus:    ["Web Apps & APIs", "Mobile Apps", "Dev Tools & CLI", "Systems Programming"],
-  stack:    ["Python", "TypeScript", "Rust", "C/C++", "Java/Kotlin", "PHP"],
-  approach: "Ship fast. Build right. Leave it open.",
+const nisodex: Developer = {
+  name: "NISODEX",
+  role: "Full-Stack & Systems Developer",
+  location: "Spain",
+  focus: [
+    "High-performance Web & Mobile Apps",
+    "Systems & Low-Level Tooling",
+    "DevTools & CLI Utilities",
+    "Open-Source Ecosystems"
+  ],
+  principles: [
+    "Clean code over clever code",
+    "Performance by design",
+    "Ship fast, build right, keep it open"
+  ]
 };
 ```
 
 ---
 
-## Stack
+## 🛠 Tech Stack
 
 <div align="center">
 
-**Languages** &nbsp;·&nbsp;
-![Python](https://img.shields.io/badge/Python-0A0A0A?style=flat-square&logo=python&logoColor=white)
+### Core Languages
 ![TypeScript](https://img.shields.io/badge/TypeScript-0A0A0A?style=flat-square&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-0A0A0A?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/Python-0A0A0A?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-0A0A0A?style=flat-square&logo=cplusplus&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0A0A0A?style=flat-square&logo=kotlin&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-0A0A0A?style=flat-square&logo=php&logoColor=white)
 
-**Frontend & Mobile** &nbsp;·&nbsp;
+### Frontend & Mobile
 ![Next.js](https://img.shields.io/badge/Next.js-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue-0A0A0A?style=flat-square&logo=vuedotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-0A0A0A?style=flat-square&logo=react&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-0A0A0A?style=flat-square&logo=vuedotjs&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-0A0A0A?style=flat-square&logo=angular&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-0A0A0A?style=flat-square&logo=flutter&logoColor=white)
-![React Native](https://img.shields.io/badge/React_Native-0A0A0A?style=flat-square&logo=react&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0A0A0A?style=flat-square&logo=tailwindcss&logoColor=white)
 
-**Backend & DB** &nbsp;·&nbsp;
+### Backend & Storage
 ![FastAPI](https://img.shields.io/badge/FastAPI-0A0A0A?style=flat-square&logo=fastapi&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-0A0A0A?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-0A0A0A?style=flat-square&logo=bun&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A0A?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-0A0A0A?style=flat-square&logo=redis&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-0A0A0A?style=flat-square&logo=firebase&logoColor=white)
 
-**DevOps** &nbsp;·&nbsp;
-![Docker](https://img.shields.io/badge/Docker-0A0A0A?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/Actions-0A0A0A?style=flat-square&logo=githubactions&logoColor=white)
+### DevOps & Environment
 ![Linux](https://img.shields.io/badge/Linux-0A0A0A?style=flat-square&logo=linux&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-0A0A0A?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0A0A0A?style=flat-square&logo=githubactions&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-0A0A0A?style=flat-square&logo=vercel&logoColor=white)
 
 </div>
 
 ---
 
-## Stats
+## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="155" src="https://github-readme-stats.vercel.app/api?username=nisodex&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=E8E8E8&text_color=666666&icon_color=888888&border_color=1C1C1C&hide=contribs&rank_icon=github&count_private=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nisodex&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&border_color=1C1C1C&hide_border=false&count_private=true" alt="GitHub Stats" />
   &nbsp;
-  <img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nisodex&layout=compact&theme=dark&bg_color=0A0A0A&title_color=E8E8E8&text_color=666666&border_color=1C1C1C&langs_count=5&hide=mdx,shell" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nisodex&layout=compact&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&border_color=1C1C1C&langs_count=6&hide=mdx,shell" alt="Top Languages" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=nisodex&theme=dark&background=0A0A0A&border=1C1C1C&stroke=1C1C1C&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=888888&currStreakLabel=888888&sideLabels=888888&dates=555555" alt="Contribution Streak" />
 </div>
 
 ---
 
-## Featured
+## 🚀 Featured Projects
 
 <div align="center">
 
-| | Project | Description |
-|:---:|:---|:---|
-| `JS` | [force-tabs-popup-blocker](https://github.com/nisodex/force-tabs-popup-blocker) | Browser extension — blocks forced tab opening and popup abuse |
-| `C++` | [klipper-paste-on-select](https://github.com/nisodex/klipper-paste-on-select) | KDE clipboard tool — paste on selection |
-| `Rust` | [MandoSamsung](https://github.com/nisodex/MandoSamsung) | Samsung remote control integration |
+| Project | Tech Stack | Description | Status |
+| :--- | :---: | :--- | :---: |
+| [**force-tabs-popup-blocker**](https://github.com/nisodex/force-tabs-popup-blocker) | `JavaScript` `Extension` | Browser extension designed to intercept and prevent aggressive tab redirection and unwanted popups. | ![Active](https://img.shields.io/badge/Active-10b981?style=flat-square) |
+| [**klipper-paste-on-select**](https://github.com/nisodex/klipper-paste-on-select) | `C++` `KDE` | Lightweight clipboard integration for KDE Plasma to automate paste on selection behavior. | ![Stable](https://img.shields.io/badge/Stable-6366f1?style=flat-square) |
+| [**MandoSamsung**](https://github.com/nisodex/MandoSamsung) | `Rust` `Networking` | Fast native CLI & network utility for remote Samsung Smart TV orchestration. | ![Maintained](https://img.shields.io/badge/Maintained-f43f5e?style=flat-square) |
 
 </div>
 
 ---
 
 <div align="center">
-  <img src="./assets/nisodex_logo_dark.svg" height="24" alt="NISODEX" />
+  <img src="./assets/nisodex_logo_dark.svg" height="28" alt="NISODEX" />
   <br/>
-  <sub><code>github.com/nisodex</code></sub>
+  <sub><b>NISODEX</b> &copy; 2026 &middot; Built with precision &middot; <a href="https://github.com/nisodex"><code>github.com/nisodex</code></a></sub>
 </div>
