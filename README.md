@@ -16,32 +16,15 @@
 
 <br/>
 
-```typescript
-interface Developer {
-  name: string;
-  role: string;
-  location: string;
-  focus: string[];
-  principles: string[];
-}
+<div align="center">
 
-const nisodex: Developer = {
-  name: "NISODEX",
-  role: "Full-Stack & Systems Developer",
-  location: "Spain",
-  focus: [
-    "High-performance Web & Mobile Apps",
-    "Systems & Low-Level Tooling",
-    "Android Customization & Modding",
-    "Open-Source Ecosystems"
-  ],
-  principles: [
-    "Clean code over clever code",
-    "Performance by design",
-    "Ship fast, build right, keep it open"
-  ]
-};
-```
+### Full-Stack & Systems Developer
+
+Desarrollo aplicaciones web y móviles de alto rendimiento, herramientas de bajo nivel y personalización de sistemas en el ecosistema **Open Source**.
+
+*Clean code over clever code &middot; Performance by design &middot; Ship fast, build right, keep it open*
+
+</div>
 
 ---
 
