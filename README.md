@@ -20,7 +20,7 @@
 
 ### Full-Stack & Systems Developer
 
-Desarrollo aplicaciones web y móviles de alto rendimiento, herramientas de bajo nivel y personalización de sistemas en el ecosistema **Open Source**.
+Crafting high-performance web & mobile applications, low-level tooling, and system customizations across the **Open Source** ecosystem.
 
 *Clean code over clever code &middot; Performance by design &middot; Ship fast, build right, keep it open*
 
