@@ -70,12 +70,6 @@ Crafting high-performance web & mobile applications, low-level tooling, and syst
 <div align="center">
   <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=nisodex&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&border_color=1C1C1C&hide_border=false" alt="GitHub Stats" />
   &nbsp;
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=nisodex&layout=compact&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&border_color=1C1C1C&langs_count=6" alt="Top Languages" />
-</div>
-
-<br/>
-
-<div align="center">
   <img height="165" src="https://streak-stats.demolab.com/?user=nisodex&theme=dark&background=0A0A0A&border=1C1C1C&stroke=1C1C1C&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=888888&currStreakLabel=888888&sideLabels=888888&dates=555555" alt="Contribution Streak" />
 </div>
 
