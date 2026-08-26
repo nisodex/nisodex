@@ -68,7 +68,7 @@ Crafting high-performance web & mobile applications, low-level tooling, and syst
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=nisodex&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&border_color=1C1C1C&hide_border=false&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=nisodex&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&border_color=1C1C1C&hide_border=false" alt="GitHub Stats" />
   &nbsp;
   <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=nisodex&layout=compact&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&border_color=1C1C1C&langs_count=6" alt="Top Languages" />
 </div>
@@ -87,10 +87,9 @@ Crafting high-performance web & mobile applications, low-level tooling, and syst
 
 | Project | Tech Stack | Description |
 | :--- | :---: | :--- |
-| [**HyperOS-Launcher**](https://github.com/nisodex/HyperOS-Launcher) | `Android` `System UI` | Enhanced HyperOS Launcher with improved blur effects, widgets, and dock customization. |
-| [**XiaoMiToolV2**](https://github.com/nisodex/XiaoMiToolV2) | `Java` `Modding` | Comprehensive modding, ROM flashing, and management tool for Xiaomi devices. |
-| [**SmartTube**](https://github.com/nisodex/SmartTube) | `Java` `Android TV` | Advanced media browser and client tailored for Android TV devices. |
-| [**rustdesk**](https://github.com/nisodex/rustdesk) | `Rust` `Remote Desktop` | Open-source remote desktop infrastructure designed for self-hosting. |
+| [**force-tabs-popup-blocker**](https://github.com/nisodex/force-tabs-popup-blocker) | `JavaScript` `Extension` | Browser extension designed to intercept and prevent aggressive tab redirection and unwanted popups. |
+| [**klipper-paste-on-select**](https://github.com/nisodex/klipper-paste-on-select) | `C++` `KDE` | Lightweight clipboard integration for KDE Plasma to automate paste on selection behavior. |
+| [**kwin-custom-resolution**](https://github.com/nisodex/kwin-custom-resolution) | `Shell` `KWin` | Custom display resolution scripts and mode management for KWin on Linux. |
 | [**HeadsetControl**](https://github.com/nisodex/HeadsetControl) | `C++` `Linux` | Sidetone and battery status utility for gaming headsets under Linux & macOS. |
 | [**arch-aur-android-studio**](https://github.com/nisodex/arch-aur-android-studio) | `Shell` `Arch AUR` | Automated packaging recipes and PKGBUILD for Android Studio on Arch Linux. |
 
