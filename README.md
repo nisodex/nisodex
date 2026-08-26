@@ -32,7 +32,7 @@ const nisodex: Developer = {
   focus: [
     "High-performance Web & Mobile Apps",
     "Systems & Low-Level Tooling",
-    "DevTools & CLI Utilities",
+    "Android Customization & Modding",
     "Open-Source Ecosystems"
   ],
   principles: [
@@ -55,14 +55,14 @@ const nisodex: Developer = {
 ![Python](https://img.shields.io/badge/Python-0A0A0A?style=flat-square&logo=python&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-0A0A0A?style=flat-square&logo=cplusplus&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-0A0A0A?style=flat-square&logo=kotlin&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-0A0A0A?style=flat-square&logo=php&logoColor=white)
+![Java](https://img.shields.io/badge/Java-0A0A0A?style=flat-square&logo=openjdk&logoColor=white)
 
 ### Frontend & Mobile
 ![Next.js](https://img.shields.io/badge/Next.js-0A0A0A?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-0A0A0A?style=flat-square&logo=react&logoColor=white)
 ![Vue.js](https://img.shields.io/badge/Vue.js-0A0A0A?style=flat-square&logo=vuedotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-0A0A0A?style=flat-square&logo=angular&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-0A0A0A?style=flat-square&logo=flutter&logoColor=white)
+![Android](https://img.shields.io/badge/Android-0A0A0A?style=flat-square&logo=android&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-0A0A0A?style=flat-square&logo=tailwindcss&logoColor=white)
 
 ### Backend & Storage
@@ -70,14 +70,13 @@ const nisodex: Developer = {
 ![Node.js](https://img.shields.io/badge/Node.js-0A0A0A?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-0A0A0A?style=flat-square&logo=bun&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A0A?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-0A0A0A?style=flat-square&logo=redis&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-0A0A0A?style=flat-square&logo=firebase&logoColor=white)
 
 ### DevOps & Environment
 ![Linux](https://img.shields.io/badge/Linux-0A0A0A?style=flat-square&logo=linux&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-0A0A0A?style=flat-square&logo=archlinux&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-0A0A0A?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/CI%2FCD-0A0A0A?style=flat-square&logo=githubactions&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-0A0A0A?style=flat-square&logo=vercel&logoColor=white)
 
 </div>
 
@@ -86,15 +85,15 @@ const nisodex: Developer = {
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=nisodex&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&border_color=1C1C1C&hide_border=false&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=nisodex&show_icons=true&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&icon_color=FFFFFF&border_color=1C1C1C&hide_border=false&count_private=true" alt="GitHub Stats" />
   &nbsp;
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nisodex&layout=compact&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&border_color=1C1C1C&langs_count=6&hide=mdx,shell" alt="Top Languages" />
+  <img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=nisodex&layout=compact&theme=dark&bg_color=0A0A0A&title_color=FFFFFF&text_color=888888&border_color=1C1C1C&langs_count=6" alt="Top Languages" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=nisodex&theme=dark&background=0A0A0A&border=1C1C1C&stroke=1C1C1C&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=888888&currStreakLabel=888888&sideLabels=888888&dates=555555" alt="Contribution Streak" />
+  <img height="165" src="https://streak-stats.demolab.com/?user=nisodex&theme=dark&background=0A0A0A&border=1C1C1C&stroke=1C1C1C&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=888888&currStreakLabel=888888&sideLabels=888888&dates=555555" alt="Contribution Streak" />
 </div>
 
 ---
@@ -103,11 +102,14 @@ const nisodex: Developer = {
 
 <div align="center">
 
-| Project | Tech Stack | Description | Status |
-| :--- | :---: | :--- | :---: |
-| [**force-tabs-popup-blocker**](https://github.com/nisodex/force-tabs-popup-blocker) | `JavaScript` `Extension` | Browser extension designed to intercept and prevent aggressive tab redirection and unwanted popups. | ![Active](https://img.shields.io/badge/Active-10b981?style=flat-square) |
-| [**klipper-paste-on-select**](https://github.com/nisodex/klipper-paste-on-select) | `C++` `KDE` | Lightweight clipboard integration for KDE Plasma to automate paste on selection behavior. | ![Stable](https://img.shields.io/badge/Stable-6366f1?style=flat-square) |
-| [**MandoSamsung**](https://github.com/nisodex/MandoSamsung) | `Rust` `Networking` | Fast native CLI & network utility for remote Samsung Smart TV orchestration. | ![Maintained](https://img.shields.io/badge/Maintained-f43f5e?style=flat-square) |
+| Project | Tech Stack | Description |
+| :--- | :---: | :--- |
+| [**HyperOS-Launcher**](https://github.com/nisodex/HyperOS-Launcher) | `Android` `System UI` | Enhanced HyperOS Launcher with improved blur effects, widgets, and dock customization. |
+| [**XiaoMiToolV2**](https://github.com/nisodex/XiaoMiToolV2) | `Java` `Modding` | Comprehensive modding, ROM flashing, and management tool for Xiaomi devices. |
+| [**SmartTube**](https://github.com/nisodex/SmartTube) | `Java` `Android TV` | Advanced media browser and client tailored for Android TV devices. |
+| [**rustdesk**](https://github.com/nisodex/rustdesk) | `Rust` `Remote Desktop` | Open-source remote desktop infrastructure designed for self-hosting. |
+| [**HeadsetControl**](https://github.com/nisodex/HeadsetControl) | `C++` `Linux` | Sidetone and battery status utility for gaming headsets under Linux & macOS. |
+| [**arch-aur-android-studio**](https://github.com/nisodex/arch-aur-android-studio) | `Shell` `Arch AUR` | Automated packaging recipes and PKGBUILD for Android Studio on Arch Linux. |
 
 </div>
 
