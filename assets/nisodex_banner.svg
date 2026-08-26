@@ -8,8 +8,8 @@
     </radialGradient>
 
     <radialGradient id="neonPulse" cx="15%" cy="50%" r="30%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.25"/>
-      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.05"/>
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.04"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
@@ -30,12 +30,6 @@
       <stop offset="0%" stop-color="#94a3b8"/>
       <stop offset="60%" stop-color="#475569"/>
       <stop offset="100%" stop-color="#1e293b"/>
-    </linearGradient>
-
-    <linearGradient id="neonAccent" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#818cf8"/>
-      <stop offset="50%" stop-color="#6366f1"/>
-      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
 
     <linearGradient id="lineAccent" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -84,13 +78,13 @@
     <polygon points="0,0 28,0 208,260 180,260" fill="#ffffff"/>
   </g>
 
-  <!-- ==================== LOGO ICON: MONOGRAM 'N' ==================== -->
+  <!-- ==================== LOGO ICON: MONOGRAM 'N' (Clean Geometric Flow) ==================== -->
   <g transform="translate(75, 95)">
     <!-- Ambient Glow behind logo -->
-    <rect x="0" y="0" width="105" height="130" fill="#6366f1" opacity="0.1" rx="8" filter="blur(10px)"/>
+    <rect x="0" y="0" width="105" height="130" fill="#6366f1" opacity="0.08" rx="8" filter="blur(10px)"/>
 
     <!-- Left Pillar -->
-    <rect x="10" y="10" width="20" height="110" rx="2" fill="url(#metalLeft)"/>
+    <rect x="10" y="10" width="20" height="110" rx="3" fill="url(#metalLeft)"/>
     <rect x="28" y="10" width="2" height="110" fill="#ffffff" opacity="0.4"/>
 
     <!-- Diagonal Stroke -->
@@ -99,12 +93,8 @@
     <polygon points="10,10 14,10 79,120 75,120" fill="#ffffff" opacity="0.8"/>
 
     <!-- Right Pillar -->
-    <rect x="75" y="10" width="20" height="110" rx="2" fill="url(#metalRight)"/>
+    <rect x="75" y="10" width="20" height="110" rx="3" fill="url(#metalRight)"/>
     <rect x="75" y="10" width="2" height="110" fill="#000000" opacity="0.3"/>
-
-    <!-- Neon Core Accent Dot -->
-    <rect x="85" y="108" width="10" height="12" rx="1" fill="url(#neonAccent)"/>
-    <circle cx="90" cy="114" r="1.5" fill="#ffffff"/>
   </g>
 
   <!-- Vertical Divider Bar -->
@@ -117,10 +107,6 @@
     <text x="0" y="60" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="0.12em" fill="#f8fafc">
       NISODEX
     </text>
-
-    <!-- Glowing Accent Dot at end of wordmark -->
-    <circle cx="340" cy="48" r="4.5" fill="#6366f1"/>
-    <circle cx="340" cy="48" r="8" fill="none" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1"/>
 
     <!-- Tagline / Subtitle -->
     <text x="2" y="90" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" letter-spacing="0.28em" fill="#94a3b8">
